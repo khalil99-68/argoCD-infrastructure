@@ -1,0 +1,9 @@
+apiVersion: v2
+name: feature-flag
+type: application
+version: 1.0.0
+appVersion: "1.0.0"
+dependencies:
+- name: unleash
+  version: 3.0.4
+  repository: https://docs.getunleash.io/helm-charts
